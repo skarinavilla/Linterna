@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:ads="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical" android:id="@+id/main"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_linterna">
+
+        <Button android:id="@+id/controlLinterna" android:layout_width="284dp"
+
+            android:layout_height="83dp" android:onClick="onClickLED"
+
+            android:text="ENCENDER LINTERNA"
+            android:layout_gravity="center"
+            android:textSize="@dimen/abc_text_size_display_1_material"
+            android:background="@color/ripple_material_light"
+            android:textColor="@android:color/holo_green_light" />
+
+    </FrameLayout>
+
+</RelativeLayout>
